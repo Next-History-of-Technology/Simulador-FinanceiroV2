@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+.conteudo{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 750px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 12px; /*Arredonda a borda*/ 
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.inp_fat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+
+}
+.inp_escolha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+select{   
+    border-radius: 8px;
+}
+
+.campos_paralisacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    width: 80%; 
+}
+label{
+display: flex;
+flex-direction: column;
+width: 70%;
+justify-content: center;
+align-items: center;
+}
+
+input{
+    border-radius: 8px;
+    width: 120px;
+}
+
+.indenizacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
